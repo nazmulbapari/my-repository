@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div-a {
+    display: flex;
+   text-decoration: none;
+   float: right;
+}
+.log{
+   margin-right: 5px;
+   text-decoration: none;
+   margin-right: 15px;
+}
+.sign{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.log:hover{
+    padding: 10px;
+    color: red;
+}
+.sign:hover{
+    padding: 10px;
+    color: red;
+  
+
+}
+
+  h1{
+    text-align:center ;
+    margin: 10px;
+}
+
+marquee{
+    font-size: 40px;
+    color: aqua;
+    background-color: rgb(190, 6, 6);
+    text-justify: auto;
+    text-decoration: dashed;
+    text-transform: uppercase;
+}
+.search{
+    width: 100%;
+    height: auto;
+   margin-left: 50%; 
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+
+.menu{
+    width: 100%;
+    min-width: 20%;
+    display: flex;
+    padding: 20px;
+   left: 10px;
+
+}
+.menu li {
+    list-style: none;
+   
+}
+.menu li a {
+    
+    text-decoration: none;
+  
+    padding: 20px;
+}
+.menu li a:hover{
+    color: red;
+    background-color: white;
+    
+}
+
+.hover-item li a{
+    display:none;
+}
+ #dep:hover .hover-item li a {
+    display: block;
+}
+
+.section-item{
+    padding: 40px 18px;
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+    
+}
+
+
+.h-text h1{
+    width: 100%;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+
+}
+.h-text h2{
+
+    color: rgb(255, 183, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.h-text h3{
+    color:black;
+    font-size: 20px;
+    text-align: start;
+   }
+   .h-text a{
+    text-decoration: none;
+   }
+   .h-text a:hover{
+    color: aqua;
+   }
+.h-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 8%;
+}
+#hr{
+    width: 100%;
+    height: auto;
+    background-color:rgb(219, 14, 14);
+    display: flex;
+    
+
+}
+#hr p{
+    padding: 60px;
+}
+
+.sub{
+    display: none;
+}
+.form:hover .sub{
+    color: aqua;
+    display: block;
+}

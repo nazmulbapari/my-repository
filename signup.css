@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+}
+
+.form div{
+width: 250px;
+height: auto;
+background-color: aqua;
+padding: 10px;
+margin-left: 300px;
+margin-top: 20px;
+
+}
+.sub{
+    margin: 10px;
+    margin: 5px;
+}
+.rst{
+    margin: 10px;
+    
+}
+
